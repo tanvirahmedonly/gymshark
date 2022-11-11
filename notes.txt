@@ -1,0 +1,164 @@
+gymshark
+
+sections -------
+    header, short-message, banner-one, womens-new-releases, banner-two, mens-new-releases, banner-three, 
+    womens-sport-bras, banner-four, banner-five, action-shop, action-offer, big-message, action-signup, 
+    footer (top, middle, bottom)
+
+
+
+icons -----------
+    <i class="fa-solid fa-xmark"></i>
+    <i class="fa-solid fa-bars"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-brands fa-cc-visa"></i>
+    <i class="fa-brands fa-cc-mastercard"></i>
+    <i class="fa-brands fa-cc-paypal"></i>
+    <i class="fa-brands fa-cc-apple-pay"></i>
+    <i class="fa-brands fa-cc-amex"></i>
+    <i class="fa-brands fa-discord"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-pinterest"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-tiktok"></i>
+    <i class="fa-solid fa-angle-left"></i>
+    <i class="fa-solid fa-angle-right"></i>
+
+
+contents -----------------
+
+    Sign up to emails you'll actually read.
+
+    WORKOUT ON THE WILD SIDE
+
+    New Adapt Animal Seamless.
+
+    IT’S NOT YOU;
+
+    IT’S YOUR SPORTS BRA
+
+    Find the one with our new sports bras.
+
+    Nothing but the best
+
+    They’re called bestsellers for a reason.
+
+    More than your best workout clothing
+
+    The Gymshark community is devoted to unlocking potential through conditioning and the things we do today to prepare for tomorrow. When it comes to performing at your max, there should be no obstacles – least of all your workout clothes. So everything about the gym clothes and accessories we design for you has your progress and the best results in mind. We want you to have the most comfortable gym hoodies, the most supportive seamless leggings and the most innovatively designed workout shirts that are made to move when it matters most.
+
+    Game-changing workout clothing. It’s not just in the designs, it’s in the people who wear them.
+
+    Want emails you'll actually read, including the latest deets and exclusive deals?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+navbar doesn't work ---------------
+    
+    <!-- nav start -->
+                <nav class="navbar">
+                    <div class="container-fluid px-0">
+                      
+                        <div class="row">
+                            <div class="col-4">
+                                <!-- toggle start -->
+                                <button class="navbar-toggler nav_toggler_icon" type="button" data-bs-toggle="collapse" data-bs-target="#nsc" aria-controls="nsc" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <!-- toggle end -->
+                                <!-- toggle menu start -->
+                                <div class="collapse navbar-collapse" id="nsc">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled">Disabled</a>
+                                    </li>
+                                    </ul>
+                                </div>
+                                <!-- toggle menu end -->
+                                <!-- search start -->
+                                    <form class="d-flex" role="search">
+                                        <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </form>
+                                <!-- search end -->
+                            </div>
+                            <div class="col-4 text-center">
+                                <!-- logo start -->
+                                    <a class="navbar-brand" href="#">Navbar</a>
+                                <!-- logo start -->
+                            </div>
+                            <div class="col-4">
+                                <!-- wish start -->
+                                <ul class="nav_ul">
+                                    <li>
+                                        <a class="navbar-brand" href="#">Navbar</a>
+                                    </li>
+                                    <li>
+                                        <a class="navbar-brand" href="#">Navbar</a>
+                                    </li>
+                                </ul>
+                                <!-- wish start -->
+                            </div>
+                        </div>
+
+
+
+                    
+                      
+                      
+                      
+                    </div>
+                  </nav>
+                <!-- nav end -->
+
+
+
+
