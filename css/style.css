@@ -13,6 +13,9 @@
 }
 /* font end */
 /* common start */
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Lato-Regular;
     font-size: 22px;
@@ -27,25 +30,13 @@ body {
     padding-bottom: 5px;
     border-bottom: 2px solid #53565a8a;
     background-color: #fff;
+    position: relative;
 }
 .h_left {}
-.h_toggle {
-    display: inline-block;
-    padding: 10px 10px 10px 0px;
-}
-.h_toggle i {
-    color: #000;
-}
-.ht_btn {
+.hl_bar {
     border: none;
     background-color: #fff;
-    padding-left: 0px;
 }
-.ht_content {}
-.htc_xmark {}
-.htc_xmark i {}
-.htc_account {}
-.htc_account i {}
 .h_search {
     display: inline-block;
     padding: 10px;
@@ -132,10 +123,10 @@ body {
     padding-bottom: 20px;
 }
 .wnrt_left {}
-.wnrt_left p {
+.wnrt_left p, .shop_bo_text p, {
     font-size: 20px;
 }
-.wnrt_left h3 {
+.wnrt_left h3, .shop_bo_text h3, .filter_content ul li:first-child span {
     font-family: Poppins-SemiBold;
     font-size: 28px;
     color: #000;
@@ -505,3 +496,177 @@ body {
 }
 /* footer-bottom end */
 /* footer end */
+
+
+
+/* shop page start from here */
+/* banner one start */
+.shop_banner_one {
+    background-color: #e6e6e6;
+}
+.shop_bo_text {
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.shop_bo_text p {
+    color: #000;
+}
+.shop_bo_text h3 {}
+/* banner one end */
+/* filter start */
+.filter {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.filter_content {}
+.filter_content ul {
+    padding-left: 5px;
+}
+.filter_content ul li:first-child {
+
+}
+.filter_content ul li:first-child span {
+    font-size: 18px;
+
+}
+.filter_content ul li {
+    list-style: none;
+    display: inline-block;
+}
+.filter_content ul li a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6e6e6e;
+    font-size: 18px;
+}
+.filter_content ul li ul {}
+.filter_content ul li ul li {}
+.filter_content ul li ul li a {
+    font-size: 20px;
+    color: #6e6e6e;
+
+}
+/* filter end */
+/* tab start */
+.tab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tab_title {}
+.tab_title div button {
+    font-size: 20px;
+    color: #6e6e6e;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+}
+.tab_h_menu {
+    overflow-x: auto;
+    overflow-y:hidden;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.tab_h_menu::-webkit-scrollbar {
+    display: none;
+}
+.tab_h_menu button {
+    white-space: nowrap;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #000 !important;
+    font-family: 'Poppins-SemiBold';
+    border: none;
+}
+
+/* tab end */
+/* product start */
+.product {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wnrb_img span {
+    position: absolute;
+    background-color: #fff;
+    top: 10px;
+    right: 10px;
+
+}
+.wnrb_img span i {
+    font-size: 20px;
+    padding: 5px;
+}
+.product_left {}
+.product_left i {
+    border: none;
+    font-size: 16px;
+    padding-right: 5px;
+    color: red;
+}
+.product_left span {
+    font-size: 16px;
+    color: red;
+}
+.wnrb_text a h2 {
+    font-family: Lato-Regular;
+    font-size: 20px;
+}
+.pl_text p {
+    border: none;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+.product_right {}
+.product_right p {
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.product_right p:nth-child(2) {
+    color: red;
+    text-decoration: line-through;
+}
+/* product end */
+/* loadmore start */
+.loadmore {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #6e6e6e;
+}
+.lm_text {}
+.lm_btn {
+    color: #fff;
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.lm_text a:nth-child(2) {
+    font-size: 18px;
+    display: block;
+    color: #6e6e6e;
+}
+.lm_text p {
+    font-size: 18px;
+}
+
+/* loadmore end */
+/* must have section start */
+.musthave {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mh_text {}
+.mh_text h3 {
+    font-family: Poppins-SemiBold;
+    font-size: 25px;
+    color: #000;
+}
+.mh_text p {
+    font-size: 18px;
+}
+/* must have section end */
+/* shop page end from here */

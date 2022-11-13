@@ -26,33 +26,32 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4">
                         <div class="h_left">
-                            <!-- toggle start -->
-                            <div class="h_toggle">
-                                <!-- button start -->
-                                <button class="ht_btn" type="button" data-bs-toggle="collapse" data-bs-target="#nsc" aria-controls="nsc" aria-expanded="false" aria-label="Toggle navigation">
-                                    <i class="fa-solid fa-bars"></i>
-                                  </button>
-                                  <!-- collapse start -->
-                                  <div class="collapse ht_content" id="nsc">
-                                    <!-- content start -->
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="htc_xmark">
-                                                <i class="fa-solid fa-xmark"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="htc_account">
-                                                <i class="fa-brands fa-tiktok"></i>
-                                                <i class="fa-brands fa-tiktok"></i>
-                                            </div>
-                                        </div>
+                            <!-- toggle modal start -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="hl_bar" data-bs-toggle="modal" data-bs-target="#myModal">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <!-- content end -->
-                                  </div>
-                                  <!-- collapse end -->
+                                    <div class="modal-body">
+                                    ...
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <!-- toggle end -->
+                            <!-- toggle modal end -->
+                            
                             <!-- search start -->
                             <div class="h_search">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -62,7 +61,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="h_center text-center">
-                            <a href="#"><img class="img-fluid" src="images/gymshark-logo.png" alt="gymshark"></a>
+                            <a href="index.html"><img class="img-fluid" src="images/gymshark-logo.png" alt="gymshark"></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -104,7 +103,7 @@
                         <h3>NEW RELEASES</h3>
                     </div>
                     <div class="col-6 wnrt_right">
-                        <a href="#">View All</a>
+                        <a href="shop.html" target="_blank">View All</a>
                     </div>
                 </div>
             </div>
@@ -256,7 +255,7 @@
                         <h3>NEW RELEASES</h3>
                     </div>
                     <div class="col-6 wnrt_right">
-                        <a href="#">View All</a>
+                        <a href="shop.html" target="_blank">View All</a>
                     </div>
                 </div>
             </div>
@@ -400,7 +399,7 @@
                         <h3>SPORTS BRAS</h3>
                     </div>
                     <div class="col-6 wnrt_right">
-                        <a href="#">View All</a>
+                        <a href="shop.html" target="_blank">View All</a>
                     </div>
                 </div>
             </div>
@@ -763,10 +762,17 @@
         <!-- footer-bottom end -->
         <!-- footer end -->
 
+
+
+
         <!-- js links -->
         <script src="js/popper.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+        <script>
+          
+        </script>
     </body>
 
 </html>
