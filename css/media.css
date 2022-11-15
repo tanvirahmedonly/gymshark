@@ -1,0 +1,144 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    /* common start */
+    body {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* common end */
+    /* header start */
+    .h_header {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .h_modal_hleft button, .hs_right button {
+        font-size: 18px;
+    }
+    .h_modal_hright i {
+        font-size: 18px;
+    }
+    .nav-pills .nav-link {
+        font-size: 16px;
+        padding: 4px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        border-bottom: 3px solid #000;
+    }
+    .h_modal_tab_item ul li:first-child {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .modal.show .modal-dialog {
+        margin-top: 56px;
+    }
+    .hms_mt {
+        margin-top: 15px !important;
+    }
+
+    /* header end */
+    /* main cta start */
+    .mcta {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .mcta_left a, .mcta_right a {
+        font-size: 13px;
+    }
+    /* main cta end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common start */
+    body {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* common end */
+    /* header start */
+    .h_header {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .nav-pills .nav-link {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        border-bottom: 3px solid #000;
+    }
+    .h_modal_tab_item ul li:first-child {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .modal.show .modal-dialog {
+        margin-top: 56px;
+    }
+    .hms_mt {
+        margin-top: 15px !important;
+    }
+    /* header end */
+    /* main cta start */
+    .mcta {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .mcta_left a, .mcta_right a {
+        font-size: 18px;
+    }
+    
+    /* main cta end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* common start */
+    body {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /* common end */
+    /* header start */
+    .h_header {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .nav-pills .nav-link {
+        font-size: 20px;
+        padding: 8px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        border-bottom: 3px solid #000;
+    }
+    .h_modal_tab_item ul li:first-child {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .modal.show .modal-dialog {
+        margin-top: 58px;
+    }
+    /* header end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* header start */
+    .modal.show .modal-dialog {
+        margin-top: 98px;
+    }
+    /* header end */
+ }
+
+ /* Extra extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* header start */
+    .modal.show .modal-dialog {
+        margin-top: 100px;
+    }
+    /* header end */
+}

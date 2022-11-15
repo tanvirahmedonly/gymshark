@@ -20,51 +20,95 @@
         <title>Gymshark Official Store</title>
     </head>
     <body>
+
+        <!-- top social section start -->
+        <section class="top-social d-xl-block d-none">
+            <div class="container-fluid">
+                <div class="ts_content">
+                    <ul class="m-0 p-0">
+                        <li>
+                            <div class="ts_text">
+                                <i class="fa-regular fa-user"></i>
+                                <a href="#">My Account</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Email Sign Up</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li>
+                            <div class="ts_location">
+                                <i class="fa-solid fa-globe"></i>
+                                <!-- modal start -->
+                                <!-- ts trigger modal -->
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#tsModal">Europe</a>
+                                <!-- ts trigger end -->
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- ts Modal -->
+        <div class="modal fade" id="tsModal" tabindex="-1" aria-labelledby="exampleModalLabe3" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close tsm_btn rounded-circle" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <span class="tsm_span mb-5">CHOOSE YOUR LOCATION</span>
+                        <!-- ts dropdown start -->
+                        <div class="dropdown ts_text text-center tsmd_border mb-5">
+                            <i class="fa-solid fa-globe"></i>
+                            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Europe</a>
+                              
+                            
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item active" href="#">Europe</a></li>
+                              <li><a class="dropdown-item" href="#">Asia</a></li>
+                              <li><a class="dropdown-item" href="#">America</a></li>
+                              <li><a class="dropdown-item" href="#">Australia</a></li>
+                            </ul>
+                        </div>
+                        <!-- ts dropdown end -->
+                        <span class="tsm_confirm rounded-pill">CONFIRM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ts modal end -->
+        <!-- top social section end -->
+
+
         <!-- header start -->
         <header class="h_header sticky-top">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-5 col-4">
                         <div class="h_left">
                             <!-- toggle modal start -->
-                            <!-- Button trigger modal -->
+                            <!-- Button trigger start -->
                             <button type="button" class="hl_bar" data-bs-toggle="modal" data-bs-target="#myModal">
                                 <i class="fa-solid fa-bars"></i>
                             </button>
+                            <!-- Button trigger end -->
                             
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    ...
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
+                            <!-- modal content goes at the end and outside of the section -->
+
                             <!-- toggle modal end -->
                             
-                            <!-- search start -->
-                            <div class="h_search">
+                            <!-- Search trigger start -->
+                            <button type="button" class="hl_search" data-bs-toggle="modal" data-bs-target="#mySearch">
                                 <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                            <!-- search end -->
+                            </button>
+                            <!-- Search trigger end -->
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-2 col-4">
                         <div class="h_center text-center">
                             <a href="index.html"><img class="img-fluid" src="images/gymshark-logo.png" alt="gymshark"></a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-sm-5 col-4">
                         <div class="h_right">
                             <a href="#"><i class="fa-regular fa-heart"></i></a>
                             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -73,15 +117,278 @@
                 </div>
             </div>
         </header>
+
+        <!-- Modal start -->
+        <section class="h_modal_section">
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen h_modal_scrollbar">
+                <div class="modal-content container-fluid">
+                    <div class="modal-header h_modal_head">
+                        <div class="h_modal_hleft">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="h_modal_hright">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    
+                    </div>
+                    <div class="modal-body h_modal_body m-auto">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#h_modal_tab_women" type="button" role="tab" aria-controls="pills-home" aria-selected="true">WOMENS</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#h_modal_tab_men" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">MENS</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#h_modal_tab_accessories" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ACCESSORIES</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active h_modal_tab_item" id="h_modal_tab_women" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <ul>
+                                    <li class="h_modal_tab_item_head">TRENDING</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">PRODUCTS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">ACTIVITY</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">COLLECTIONS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade h_modal_tab_item" id="h_modal_tab_men" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <ul>
+                                    <li class="h_modal_tab_item_head">TRENDING</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Him</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">PRODUCTS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Him</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">ACTIVITY</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Him</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">COLLECTIONS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Him</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade h_modal_tab_item" id="h_modal_tab_accessories" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <ul>
+                                    <li class="h_modal_tab_item_head">ACCESSORIES</li>
+                                    <li><a href="#">All Accessories</a></li>
+                                    <li><a href="#">Equipment</a></li>
+                                    <li><a href="#">Socks</a></li>
+                                    <li><a href="#">Bottles</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">PRODUCTS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                    <li><a href="#">Black Leggings</a></li>
+                                    <li><a href="#">Matching Sets</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">E-Gift Card</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">ACTIVITY</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                </ul>
+                                <ul>
+                                    <li class="h_modal_tab_item_head">COLLECTIONS</li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Gifts For Her</a></li>
+                                    <li><a href="#">Gifts Under €30</a></li>
+                                    <li><a href="#">Gifts Under €60</a></li>
+                                    <li><a href="#">Gifts For Weightlifters</a></li>
+                                    <li><a href="#">Gifts For Gym Lovers</a></li>
+                                    <li><a href="#">Gifts For Runners</a></li>
+                                </ul>
+                            </div>                      
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal end -->
+
+        <!-- Search Modal start -->
+        <section class="h_modal_search">
+            <div class="modal fade" id="mySearch" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content container-fluid">
+                    <div class="modal-body">
+                        <div class="input-group flex-nowrap align-items-center mt-5 hms_mt">
+                            <input type="text" class="form-control hsm_search_input" placeholder="Search By Typing Keywords..." aria-label="Search here" aria-describedby="addon-wrapping">
+                            <button type="button" class="btn-close input-group-text hsm_search_text" data-bs-dismiss="modal" aria-label="Close" id="addon-wrapping"></button>
+                            <!-- <span class="input-group-text" id="addon-wrapping">@</span> -->
+                        </div>
+                        <!-- <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="hs_left">
+                                    <form action="#">
+                                        <input type="text" class="hs_input" placeholder="Search By Typing Keywords...">
+                                    </form>
+                                </div>
+                            
+                                
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="hs_right">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Search Modal end -->
+
+       
+
         <!-- header end -->
 
         <!-- short-message start -->
-        <section class="sm text-center d-sm-block d-none">
-            <a href="#"><i class="fa-solid fa-angle-left"></i></a>
-            <span>Sign up to emails you'll actually read.</span>
-            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+        <section class="sm text-center d-lg-block d-none">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 offset-lg-2">
+                        <!-- slider start -->
+            <div id="sm_slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="#" class="sms_a">Sign up to emails you'll actually read.</a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#" class="sms_a">Free standard shipping when you spend more than 75$.</a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="#" class="sms_a">10% discount for students.</a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev sm_ccp" type="button" data-bs-target="#sm_slide" data-bs-slide="prev">
+                  <i class="fa-solid fa-angle-left"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next sm_ccn" type="button" data-bs-target="#sm_slide" data-bs-slide="next">
+                  <i class="fa-solid fa-angle-right"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- slider end -->
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- short-message end -->
+
+
+        <!-- main cta section start -->
+        <section class="mcta d-lg-none d-md-block">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="mcta_left text-center">
+                            <a href="#">SHOP NEW MENS</a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mcta_right text-center">
+                            <a href="#">SHOP NEW WOMENS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main cta section end -->
+
 
         <!-- banner-one start -->
         <section class="b_one">
@@ -729,13 +1036,13 @@
                     </div>
                     <div class="col-lg-4 offset-lg-4">
                         <div class="fm_social">
-                            <a href="#"><i class="fa-brands fa-discord"></i></a>
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-discord"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-pinterest"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="rounded-circle fa-brands fa-tiktok"></i></a>
                         </div>
                     </div>
                 </div>
@@ -766,8 +1073,8 @@
 
 
         <!-- js links -->
-        <script src="js/popper.min.js"></script>
         <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>        
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
         <script>

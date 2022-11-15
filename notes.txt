@@ -27,6 +27,9 @@ icons -----------
     <i class="fa-brands fa-tiktok"></i>
     <i class="fa-solid fa-angle-left"></i>
     <i class="fa-solid fa-angle-right"></i>
+    <i class="fa-regular fa-user"></i>
+    <i class="fa-solid fa-globe"></i>
+    <i class="fa-solid fa-angle-down"></i>
 
 
 contents -----------------
@@ -57,7 +60,59 @@ contents -----------------
 
 
 
+search -----------
 
+    <!-- search start -->
+                            <div class="dropdown h_search">
+                                <a href="#" class="btn p-0" role="button" id="dds" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                                <ul class="dropdown-menu m-0 p-0 ddn_s" aria-labelledby="dds">
+                                    <form action="#">
+                                        <div class="row align-items-center">
+                                            <div class="col-10">
+                                                <input type="text" class="form-control h_sinput" name="h_sinput" placeholder="Search here...">
+                                            </div>
+                                            <div class="col-2">
+                                                <button type="submit" class="btn h_sbutton" name="h_sbutton">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </ul>
+                            </div>
+                            <!-- search end -->
+
+Search css ------
+
+    .h_search {
+    display: inline-block;
+    padding: 10px;
+    }
+    .h_search a {
+        border: none !important;
+    }
+    .h_search a:hover {}
+    .h_search a i {
+        color: #000;
+        border: none;
+        background-color: #fff;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .btn.show {
+        border: none;
+    }
+    .ddn_s {
+        inset: 16px auto auto 0px !important;
+    }
+    .h_sinput {
+        border: none !important;
+    }
+    .h_sbutton {
+        border: none !important;
+    }
 
 
 
