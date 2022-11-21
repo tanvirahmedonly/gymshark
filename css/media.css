@@ -45,6 +45,206 @@
         font-size: 13px;
     }
     /* main cta end */
+    /* banner-one start */
+    .b_one {
+        min-height: 150px;
+    }
+    .b_one_content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left !important;
+    }
+    .b_one_content h1, .sah {
+        font-size: 25px;
+        line-height: 28px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .b_one_content p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .c_btn a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* banner-one end */
+    /* womens new releases start */
+    .wnrt_left h3, .shop_bo_text h3, .filter_content ul li:first-child span {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .wnrt_left span {
+        font-size: 14px;
+    }
+    .wnrt_right a {
+        font-size: 14px;
+    }
+    .wnrbp_right p {
+        font-size: 14px;
+    }
+    .wnrbp_left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .wnrb_text a h2 {
+        font-size: 16px;
+    }
+    .wnrb_text p {
+        font-size: 14px;
+    }
+    .wnrbcol_mb {
+        margin-bottom: 20px;
+    }
+    /* womens new releases end */
+    /* banner two start */
+    .bt_text h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .b_two {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .bt_text {
+        text-align: center;
+    }
+    /* banner two end */
+    /* banner three start */
+    .b_three {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        min-height: 255px;
+    }
+    .banner_three_txt_left {
+        padding-left: 0px !important;
+        text-align: left !important;
+    }
+    .banner_three_txt_left h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    /* banner three end */
+    /* banner four start */
+    .b_four {
+        min-height: 255px;
+    }
+    .b_four_content {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .banner_four_text h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .c_btn_banner_four a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    /* banner four end */
+    /* banner five start */
+    .banner_five_txt_center {
+        text-align: center !important;
+    }
+    /* banner five end */
+    /* banner five start */
+    .banner_five_txt_center {
+        text-align: center !important;
+    }
+    .b_five_content {
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+    /* banner five end */
+    /* shop action start */
+    .sa_left {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        min-height: 255px;
+    }
+    .sa_left h2 {
+        margin-bottom: 20px;
+    }
+    .sa_right {
+        text-align: center;
+        margin-left: 0px;
+        min-height: 255px;
+    }
+    .sa_right h2 {
+        margin-bottom: 20px;
+    }
+    .sa_content {
+        padding-top: 120px;
+    }
+    /* shop action end */
+    /* offer card start */
+    .oc_item {
+        margin-bottom: 20px;
+    }
+    .oci_text {
+        margin: -55% auto;
+    }
+    .oci_text h3 {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    /* offer card end */
+    /* big message start */
+    .bm_card {
+        padding: 0px;
+    }
+    .bmc_text h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .bmc_text p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* big message end */
+    /* action signup start */
+    .as_text span {
+        padding-right: 0px;
+    }
+    .as_text div {
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    /* action signup end */
+    /* fmd_account_section start */
+    .fmd_account a {
+        font-size: 15px;
+    }
+    .fmd_account a i {
+        font-size: 15px;
+    }
+    /* fmd_account_section end */
+    /* fmd_accordion_section start */
+    .fmd_accordion_section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .fmd_accordion_item {
+        margin-bottom: 10px;
+    }
+    .fmd_accordion_link ul {
+        padding-left: 10px;
+    }
+    .fmd_accordion_link ul li a {
+        font-size: 15px;
+    }
+    /* fmd_accordion_section end */
+    .fmd_ftrb_card {
+        margin-bottom: 20px;
+    }
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -88,6 +288,167 @@
     }
     
     /* main cta end */
+    /* banner-one start */
+    .b_one {
+        min-height: 150px;
+    }
+    .b_one_content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left !important;
+    }
+    .b_one_content h1, .sah {
+        font-size: 30px;
+        line-height: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .b_one_content p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .c_btn a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* banner-one end */
+    /* womens new releases start */
+    .wnrt_left h3, .shop_bo_text h3, .filter_content ul li:first-child span {
+        font-size: 25px;
+    }
+    .wnrt_left span {
+        font-size: 15px;
+    }
+    .wnrt_right a {
+        font-size: 15px;
+    }
+    .wnrbp_right p {
+        font-size: 15px;
+    }
+    .wnrbp_left p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .wnrb_text a h2 {
+        font-size: 18px;
+    }
+    .wnrb_text p {
+        font-size: 15px;
+    }
+    .wnrbcol_mb {
+        margin-bottom: 20px;
+    }
+    /* womens new releases end */
+    /* banner two start */
+    .bt_text h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .b_two {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    /* banner two end */
+    /* banner three start */
+    .b_three {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        min-height: 255px;
+    }
+    /* banner three end */
+    /* banner four start */
+    .b_four {
+        min-height: 255px;
+    }
+    .b_four_content {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    /* banner four end */
+    /* banner five start */
+    .banner_five_txt_center {
+        text-align: center !important;
+    }
+    .b_five_content {
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+    /* banner five end */
+    /* shop action start */
+    .sa_left {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        min-height: 255px;
+    }
+    .sa_left h2 {
+        margin-bottom: 20px;
+    }
+    .sa_right {
+        text-align: center;
+        margin-left: 0px;
+        min-height: 255px;
+    }
+    .sa_right h2 {
+        margin-bottom: 20px;
+    }
+    .sa_content {
+        padding-top: 120px;
+    }
+    /* shop action end */
+    /* offer card start */
+    .oci_text {
+        margin: -60% auto;
+    }
+    .oci_text h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    /* offer card end */
+    /* big message start */
+    .bm_card {
+        padding: 0px;
+    }
+    .bmc_text p {
+        font-size: 16px;
+    }
+    /* big message end */
+    /* action signup start */
+    .as_text span {
+        padding-right: 0px;
+    }
+    .as_text div {
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+    /* action signup end */
+    /* fmd_account_section start */
+    .fmd_account a {
+        font-size: 15px;
+    }
+    .fmd_account a i {
+        font-size: 15px;
+    }
+    /* fmd_account_section end */
+    /* fmd_accordion_section start */
+    .fmd_accordion_section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .fmd_accordion_item {
+        margin-bottom: 15px;
+    }
+    .fmd_accordion_link ul {
+        padding-left: 10px;
+    }
+    .fmd_accordion_link ul li a {
+        font-size: 15px;
+    }
+    /* fmd_accordion_section end */
+    
 }
 
  /* Medium devices (tablets, 768px and up) */
@@ -118,6 +479,107 @@
         margin-top: 58px;
     }
     /* header end */
+    /* banner-one start */
+    .b_one {
+        min-height: 300px;
+    }
+    .b_one_content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        text-align: left !important;
+    }
+    .b_one_content h1, .sah {
+        font-size: 40px;
+        line-height: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .b_one_content p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .c_btn a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /* banner-one end */
+    /* womens new releases start */
+    .wnrt_left h3, .shop_bo_text h3, .filter_content ul li:first-child span {
+        font-size: 25px;
+    }
+    .wnrt_left span {
+        font-size: 15px;
+    }
+    .wnrt_right a {
+        font-size: 15px;
+    }
+    .wnrbp_right p {
+        font-size: 15px;
+    }
+    .wnrbp_left p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .wnrb_text a h2 {
+        font-size: 18px;
+    }
+    .wnrb_text p {
+        font-size: 15px;
+    }
+    /* womens new releases end */
+    /* banner two start */
+    .bt_text h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    /* banner two end */
+    /* banner three start */
+    .b_three {
+        padding-top: 75px;
+        padding-bottom: 55px;
+    }
+    /* banner three end */
+    /* banner four start */
+    .b_four_content {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    /* banner four end */
+    /* banner five start */
+    .banner_five_txt_center {
+        text-align: center !important;
+    }
+    .b_five_content {
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+    /* banner five end */
+    /* shop action start */
+    .sa_left {
+        text-align: center;
+    }
+    .sa_left h2 {
+        margin-bottom: 20px;
+    }
+    .sa_right {
+        text-align: center;
+    }
+    .sa_right h2 {
+        margin-bottom: 20px;
+    }
+    .sa_content {
+        padding-top: 140px;
+    }
+    /* shop action end */
+    /* offer card start */
+    .oci_text h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    
+    /* offer card end */
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -132,6 +594,31 @@
         margin-top: 98px;
     }
     /* header end */
+    /* banner-one start */
+    .b_one {
+        min-height: 400px;
+    }
+    .b_one_content {
+        padding-top: 200px;
+        padding-bottom: 80px;
+    }
+    .b_one_content h1, .sah {
+        font-size: 45px;
+        line-height: 50px;
+        padding-left: 320px;
+        padding-right: 320px;
+    }
+    .b_one_content p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .c_btn a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    /* banner-one end */
  }
 
  /* Extra extra large devices (extra large desktops, 1400px and up) */
